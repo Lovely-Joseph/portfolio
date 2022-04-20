@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;	
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+		.menu{
+			display: flex;
+			justify-content: space-evenly;
+			background: rgba(0, 0, 0, 0.8);
+		}
+		.menu p{
+			color: white;
+			font-size: 28px;
+		}
+	
+		ul{
+			padding: 20px;
+			margin-top:6px ;
+			border-radius: 5px;
+			text-align: right;
+		}
+		ul li{
+			list-style: none;
+			display: inline-block;
+			padding: 5px 20px;
+		}
+		li a:hover{
+			color: red;
+		}
+		li a{
+			text-decoration: none;
+			color: white;
+		}
+		.red{
+			color: red;
+		}
+		.frstdiv{
+			font-size: 42px;
+			text-align: center;
+			margin-top: 140px;
+		}
+		.scnddiv{
+			display: flex;
+			justify-content: space-evenly;
+		}
+	/*	.scnddiv div{
+			text-align: center;
+			width: 20%;
+			padding: 10px;
+			background-color: #f5f6f7;
+			border-radius: 10px;
+			box-shadow: 5px 2px 2px 3px #9d9fa1;
+
+		}*/
+		.phone{
+			display: flex;
+			justify-content: space-evenly;
+			text-align: center;
+			width: 20%;
+			padding: 8px;
+			background-color: #f5f6f7;
+			border-radius: 10px;
+			box-shadow: 5px 2px 2px 3px #9d9fa1;
+		}
+		.phone img{
+			width: 40px;
+			margin-top: 60px;
+		}
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<div>
+			<p><span style="color: red;">L</span>ovely <span style="color: red;">J</span>oseph</p>
+		</div>
+		<div>
+			<ul class="list2">
+				<li><a href="..\new_work.html">HOME</a></li>
+				<li><a href="service.html">SERVICES</a></li>
+				<li><a href="projects.html">PROJECTS</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="frstdiv">
+		<p>CONTACT <span class="red">INFO</span></p>
+	</div>
+	<div class="scnddiv">
+		<div class="phone">
+			<div>
+				<img src="phone.png">
+			</div>
+			<div>
+				<h3>Phone</h3>
+				<p>+91 80862 03692</p>
+				<p>+91 99645 53784</p>
+			</div>
+		</div>
+		<div class="phone">
+			<div>
+				<img src="email.png">
+			</div>
+			<div>
+				<h3>Email</h3>
+				<p>info@gmail.com</p>
+				<p>sales@gmail.com</p>
+			</div>
+		</div>
+		<div class="phone">
+			<div>
+				<img src="address.png">
+			</div>
+			<div>
+				<h3>Address</h3>
+				<p>Kakkanad, Near Arvintech</p>
+				<p>Ernakulam</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+		<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;	
+			background-color: rgba(0, 0, 0, 0.1);	}
+		.menu{
+			display: flex;
+			justify-content: space-evenly;
+			background: rgba(0, 0, 0, 0.8);
+
+		}
+		.menu p{
+			color: white;
+			font-size: 28px;
+		}
+		/*.name{
+			color: white;
+		}*/
+		ul{
+			padding: 20px;
+			margin-top: 6px;
+			/*background: rgba(0, 0, 0, 0.2);*/
+			border-radius: 5px;
+			text-align: right;
+		}
+		ul li{
+			list-style: none;
+			display: inline-block;
+			padding: 5px 20px;
+			/*border: 1px solid black;*/
+		}
+		li a:hover{
+			/*background-color: white;*/
+			color: red;
+		}
+		li a{
+			text-decoration: none;
+			color: white;
+		}
+		.title{
+			font-size: 40px;
+			margin: 0px;
+			padding: 0px;
+			text-align: center;
+		}
+		.head{
+			color: red;
+		}
+		.title1{
+			font-size: 20px;
+		}
+		.newdiv{
+			display: flex;
+			width: 80%;
+			margin: auto;
+		}
+		.div1{
+			width: 45%;
+			background: rgba(0, 0, 0, 0.8);
+			color: white;
+			padding: 76px 30px;
+			margin-left: 60px;
+		}
+		.div2{
+			width: 45%;
+			background-image: url("../my_shop/html.jpg");
+			background-repeat: no-repeat;
+			display: cover;
+			opacity: 0.6;
+
+		}
+		.para{
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<div class="menu">
+			<div>
+				<p><span style="color: red;">L</span>ovely <span style="color: red;">J</span>oseph</p>
+			</div>
+			<div>
+				<ul class="list2">
+					<li><a href="..\new_work.html">HOME</a></li>
+					<li><a href="service.html">SERVICES</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+	</div>
+	<div class="title">
+		<p>RECENT <span class="head">PROJECTS</span></p>
+	</div>
+	<div class="newdiv">
+		<div class="div1">
+			<p class="title1">Project1</p>
+			<p class="title2">HTML Program</p>
+			<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  to make a type specimen book.</p>
+		</div>
+		<div class="div2">
+		</div>
+	</div>
+</body>
+</html>
